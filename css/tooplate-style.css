@@ -556,6 +556,18 @@ footer span {
     height: 95vh;
   }
 
+  #home:before {
+    content: "";
+background-image: url('../images/fam.png');
+background-size: cover;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.7);
+  }
+
   .contact-info {
     margin-top: 42px;
   }
@@ -566,4 +578,26 @@ footer span {
   #home {
     height: 125vh;
   }
+
+  #home:before {
+    content: "";
+background-image: url('../images/fam.png');
+background-size: cover;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.7);
+  }
 }
+
+
+
+/* content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7); */
