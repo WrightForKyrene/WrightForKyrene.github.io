@@ -554,23 +554,16 @@ footer span {
 
   #home {
     height: 95vh;
-  }
 
-  /* #home:before {
-    content: "";
-background-image: url('../images/fam.png');
-background-size: cover;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0,0,0,0.7);
+    background-image: url('../images/fam.png');
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover; 
+    background-repeat:no-repeat;
   }
-
-  #home:after {
-    background: none;
-  } */
 
   .contact-info {
     margin-top: 42px;
@@ -581,31 +574,45 @@ background: rgba(0,0,0,0.7);
 @media (max-width: 320px) {
   #home {
     height: 125vh;
-  }
 
-  /* #home:before {
-    content: "";
-background-image: url('../images/fam.png');
-background-size: cover;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0,0,0,0.7);
+    background-image: url('../images/fam.png');
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover; 
+    background-repeat:no-repeat;
   }
-
-  #home:after {
-    background: none;
-  } */
 }
 
 
 
-/* content: '';
+/* 
+#home {
+  background: url('../images/fam.png') 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+   display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+   align-items: center;
+  height: 100vh;
+  position: relative;
+  text-align: right;
+}
+
+#home:before{
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.7); */
+  background: rgba(0,0,0,0.7);
+}
+*/
