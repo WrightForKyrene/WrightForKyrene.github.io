@@ -117,7 +117,7 @@
 
 
             $.ajax({
-              url: "file:///D:/Development/Repositories/margaret-website/mail/contact_me.php",
+              url: "https://wrightforkyrene.github.io/mail/contact_me.php",
               type: "POST",
               data: {
                 name: nameVal,
