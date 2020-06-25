@@ -237,7 +237,7 @@ ul, ul, ol {
   Home section              
 -----------------------------------------*/
 
-#home {
+/* #home {
   background: url('../images/fam.png') 50% 0 repeat-y fixed;
   background-color: #2b2b2b;
   background-size: cover;
@@ -263,9 +263,9 @@ ul, ul, ol {
   left: 0;
   bottom: 0;
   background: rgba(0,0,0,0.7);
-}
+} */
 
-/* #home {
+#home {
   display: -webkit-box;
   display: -webkit-flex;
    display: -ms-flexbox;
@@ -287,7 +287,7 @@ ul, ul, ol {
   height: calc(100% - 50px);
   width: 100%;
   object-fit: cover;
-} */
+}
 
 .home-thumb h1 {
   /* color: #f4acb7; */
@@ -634,7 +634,7 @@ footer span {
     text-align: right;
   }
   
-  #home-bg {
+  /* #home-bg {
     z-index: -1;
     background-color: #2b2b2b;
     position: absolute;
@@ -643,7 +643,7 @@ footer span {
     width: 100%;
     object-fit: cover;
     display: block;
-  }
+  } */
 
   .contact-info {
     margin-top: 42px;
@@ -689,7 +689,7 @@ content: '';
     text-align: right;
   }
   
-  #home-bg {
+  /* #home-bg {
     z-index: -1;
     background-color: #2b2b2b;
     position: absolute;
@@ -698,7 +698,7 @@ content: '';
     width: 100%;
     object-fit: cover;
     display: block;
-  }
+  } */
 
   /* #home:before {
     content: "";
