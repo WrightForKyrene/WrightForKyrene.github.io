@@ -581,10 +581,35 @@ footer span {
     background-repeat:no-repeat; */
   }
 
+  #home::before {
+    content: "";
+    background-image: url('../images/fam.png');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.7);
+    background-position:center;
+    position: absolute;
+  }
+
   .contact-info {
     margin-top: 42px;
   }
 }
+
+/*
+content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+*/
 
 
 @media (max-width: 320px) {
@@ -600,35 +625,19 @@ footer span {
     background-size:cover; 
     background-repeat:no-repeat; */
   }
+
+  #home::before {
+    content: "";
+    background-image: url('../images/fam.png');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.7);
+    background-position:center;
+    position: absolute;
+  }
 }
-
-
-
-/* 
-#home {
-  background: url('../images/fam.png') 50% 0 repeat-y fixed;
-  background-size: cover;
-  background-position: center center;
-  display: -webkit-box;
-  display: -webkit-flex;
-   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-   align-items: center;
-  height: 100vh;
-  position: relative;
-  text-align: right;
-}
-
-#home:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0,0,0,0.7);
-}
-*/
