@@ -581,7 +581,7 @@ footer span {
     background-repeat:no-repeat; */
   }
 
-  #home::before {
+  #home:before {
     content: "";
     background-image: url('../images/fam.png');
     background-size: cover;
@@ -626,7 +626,7 @@ content: '';
     background-repeat:no-repeat; */
   }
 
-  #home::before {
+  #home:before {
     content: "";
     background-image: url('../images/fam.png');
     background-size: cover;
