@@ -323,6 +323,22 @@ ul, ul, ol {
   color: #ffffff;
 }
 
+.ideals-list {
+  color: #ffffff;
+}
+
+.ideals-list li {
+  padding-bottom: 10px;
+}
+
+.ideals-list li.last {
+  padding-bottom: 0;
+}
+
+.ideals-list li span {
+  font-weight: bold;
+}
+
 /*---------------------------------------
   About section              
 -----------------------------------------*/
