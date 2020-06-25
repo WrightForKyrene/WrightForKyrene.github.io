@@ -30,7 +30,9 @@
           $('#home').parallax("50%", 50);
           // $('#service').parallax("50%", 40);
           $('#about').parallax("50%", 20);
-          $('#work').parallax("50%", 30);
+          $('#why').parallax("50%", 30);
+          $('#tenets').parallax("50%", 30);
+          $('#donate').parallax("50%", 30);
           $('#contact').parallax("50%", 10);
         };
 
@@ -46,7 +48,79 @@
             }, 1000);
             event.preventDefault();
           });
+
+          // Menu scroll
+          $('#menu-home').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 49
+            }, 1000);
+            event.preventDefault();
+          });
+
+          $('#menu-about').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 49
+            }, 1000);
+            event.preventDefault();
+          });
+
+          $('#menu-why').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 49
+            }, 1000);
+            event.preventDefault();
+          });
+
+          $('#menu-tenets').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 49
+            }, 1000);
+            event.preventDefault();
+          });
+
+          $('#menu-donate').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 49
+            }, 1000);
+            event.preventDefault();
+          });
+
+          $('#menu-contact').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 49
+            }, 1000);
+            event.preventDefault();
+          });
         });  
+
+        // Scroll to top  		
+        if ($('#scroll-to-top').length) {
+          var scrollTrigger = 100, // px
+            backToTop = function () {
+              var scrollTop = $(window).scrollTop();
+              if (scrollTop > scrollTrigger) {
+                $('#scroll-to-top').addClass('show');
+              } else {
+                $('#scroll-to-top').removeClass('show');
+              }
+            };
+          backToTop();
+          $(window).on('scroll', function () {
+            backToTop();
+          });
+          $('#scroll-to-top').on('click', function (e) {
+            e.preventDefault();
+            $('html,body').animate({
+              scrollTop: 0
+            }, 700);
+          });
+        }
 
 
         // WOW Animation js
