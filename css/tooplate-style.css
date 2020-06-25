@@ -594,7 +594,7 @@ footer span {
 
   #home {
     height: 95vh;
-    background: url('../images/home-bg.jpg');
+    background: url('../images/IMG_1469Margaret-2.jpg');
 
     /* background-image: url('../images/fam.png');
     background-position:center; 
@@ -665,7 +665,7 @@ content: '';
 @media (max-width: 320px) {
   #home {
     height: 125vh;
-    background: url('../images/home-bg.jpg');
+    background: url('../images/IMG_1469Margaret-2.jpg');
 
     /* background-image: url('../images/fam.png');
     background-position:center; 
