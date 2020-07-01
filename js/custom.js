@@ -185,11 +185,6 @@
             console.log("From: " + fromEmailVal);
             console.log("Message: " + messageVal);
 
-
-
-
-
-
             $.ajax({
               url: "https://wrightforkyrene.github.io/mail/contact_me.php",
               type: "POST",
@@ -225,43 +220,11 @@
                 // $('#contactForm').trigger("reset");
               },
               complete: function() {
-                setTimeout(function() {
-                  $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
-                }, 1000);
+                console.log("complete");
+                // setTimeout(function() {
+                //   $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
+                // }, 1000);
               }
             });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            // Email.send({
-            //   Host: "smtp.gmail.com",
-            //   Username: ""
-            // });
         });
-        // function sendEmail() {
-        //   alert("Click");
-        //   // Email.send({
-        //   // Host: "smtp.gmail.com",
-        //   // Username : "<sender’s email address>",
-        //   // Password : "<email password>",
-        //   // To : '<recipient’s email address>',
-        //   // From : "<sender’s email address>",
-        //   // Subject : "<email subject>",
-        //   // Body : "<email body>",
-        //   // }).then(
-        //   //   message => alert("mail sent successfully")
-        //   // );
-        // };
 })(jQuery);
