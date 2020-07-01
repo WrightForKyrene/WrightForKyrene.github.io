@@ -623,6 +623,7 @@ footer span {
 
   #home {
     height: 95vh;
+    width: 100%;
   }
 
   .contact-info {
@@ -633,5 +634,6 @@ footer span {
 @media (max-width: 320px) {
   #home {
     height: 125vh;
+    width: 100%;
   }
 }
