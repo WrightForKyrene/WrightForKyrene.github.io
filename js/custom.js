@@ -192,7 +192,7 @@
                 email: fromEmailVal,
                 message: messageVal
               },
-              cache: false,
+              dataType: "json",
               success: function() {
                 console.log("done");
                 // Success message
