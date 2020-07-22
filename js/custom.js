@@ -24,7 +24,6 @@
             }
         });
 
-
         // Parallax Js
         function initParallax() {
           $('#home').parallax("50%", 50);
@@ -37,7 +36,6 @@
         };
 
         initParallax();
-        
 
         // smoothscroll js
         $(function() {
@@ -121,7 +119,6 @@
             }, 700);
           });
         }
-
 
         // WOW Animation js
         new WOW({ mobile: false }).init();

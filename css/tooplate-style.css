@@ -350,6 +350,14 @@ ul, ul, ol {
   transition: all ease-in-out 0.4s;
 }
 
+.ideal-topic {
+  font-size: 15px;
+}
+
+.tenent-img {
+  width: 100%;
+}
+
 .service-thumb:hover {
   /* background: #2b2b2b; */
   /* top: -5px; */
@@ -460,6 +468,15 @@ ul, ul, ol {
 
 .work-thumb:hover .work-thumb-overlay {
   opacity: 1;
+}
+
+/*---------------------------------------
+  Donate section              
+-----------------------------------------*/
+#donate {
+  padding-top: 25px !important;
+  padding-bottom: 25px;
+  background: #f9f9f9;
 }
 
 /*---------------------------------------
@@ -581,8 +598,6 @@ footer span {
   transform: scale(1.1);
   top: -5px;
 }
-
-
 
 /*---------------------------------------
   Mobile Responsive styles              
