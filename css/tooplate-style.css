@@ -512,7 +512,7 @@ ul, ul, ol {
   height: 55px;
 }
 
-#contact button#submit {
+#contact button#my-form-submit {
   background: #2b2b2b;
   border: none;
   border-radius: 50px;
@@ -521,9 +521,15 @@ ul, ul, ol {
   margin-top: 24px;
 }
 
-#contact button#submit:hover {
+#contact button#my-form-submit:hover {
   background: #00bbf9;
   color: #ffffff;
+}
+
+#my-form-status {
+  text-align: center;
+  font-size: 20px;
+  color: #00bbf9;
 }
 
 .is-required {
