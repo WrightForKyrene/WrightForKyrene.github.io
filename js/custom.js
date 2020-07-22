@@ -185,6 +185,7 @@
             $.ajax({
               url: "https://wrightforkyrene.github.io/mail/contact_me.php",
               type: "POST",
+              crossDomain: true,
               data: {
                 name: nameVal,
                 //phone: phone,
