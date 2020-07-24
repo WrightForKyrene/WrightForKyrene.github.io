@@ -7,7 +7,6 @@
           $('.preloader').fadeOut(1000); // set duration in brackets    
         });
 
-
         // navigation Section
         $('.navbar-collapse a').on('click',function(){
           $(".navbar-collapse").collapse('hide');
@@ -27,7 +26,6 @@
         // Parallax Js
         function initParallax() {
           $('#home').parallax("50%", 50);
-          // $('#service').parallax("50%", 40);
           $('#about').parallax("50%", 20);
           $('#why').parallax("50%", 30);
           $('#tenets').parallax("50%", 30);
@@ -167,5 +165,5 @@
             }
           };
           xhr.send(data);
-        }
+        };
 })(jQuery);

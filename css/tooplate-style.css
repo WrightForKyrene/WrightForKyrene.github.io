@@ -266,7 +266,7 @@ ul, ul, ol {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/fam-resized.png') center/cover no-repeat;
+  background: url('../images/fam-resized-2.png') center/cover no-repeat;
   /* background: url('../images/fam-resized.png') 50% 0 repeat-y fixed; */
   background-color: #2b2b2b;
   /* background-position: center center; */
@@ -352,10 +352,18 @@ ul, ul, ol {
 }
 
 .ideal-topic {
-  font-size: 15px;
+  color: #00bbf9
 }
 
 .tenent-img {
+  width: 100%;
+}
+
+#family-container {
+  margin-top: 25px;
+}
+
+#family-container img {
   width: 100%;
 }
 
@@ -564,6 +572,9 @@ footer span {
   color: white;
 }
 
+.link-blue {
+  color: #00bbf9;
+}
 
 /*---------------------------------------
   Social icon             
@@ -649,6 +660,10 @@ footer span {
 
   .contact-info {
     margin-top: 42px;
+  }
+
+  #family-container {
+    margin-top: 0px !important;
   }
 }
 
