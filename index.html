@@ -96,15 +96,15 @@
                               <p>Thank you for requesting a sign. Please fill out the following form and I will get a sign put on your yard soon! I can't thank you for your support.</p>
                               <form id="sign_form" action="https://formspree.io/mgenrapg" method="POST">
                                    <div class="form-group">
-                                        <input id="person_name" type="text" class="form-control" placeholder="Full Name">
+                                        <input id="person_name" type="text" class="form-control" placeholder="Full Name" name="Name">
                                    </div>
 
                                    <div class="form-group">
-                                        <input id="person_phone" type="tel" class="form-control" placeholder="Phone #">
+                                        <input id="person_phone" type="tel" class="form-control" placeholder="Phone #" name="Phone #">
                                    </div>
 
                                    <div class="form-group">
-                                        <input id="person_address" type="text" class="form-control" placeholder="Address">
+                                        <input id="person_address" type="text" class="form-control" placeholder="Address" name="Address">
                                    </div>
 
                                    <div class="form-group" style="text-align: center;">
@@ -306,14 +306,15 @@
                                         <div class="col-md-12 col-sm-12">
                                              <textarea id="email_message" class="form-control" rows="5" name="Message" placeholder="Message"></textarea>
                                         </div>
-                                        <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
+                                        <div>
                                              <button id="my-form-submit" type="submit" class="form-control">Send Message</button>
+                                             <!-- <button id="request-sign-button" class="form-control" data-toggle="modal" data-target="#signModal">Get A Yard Sign</button> -->
                                         </div>
                                    </form>
                                    <p id="my-form-status" style="text-align: center"></p>
                               </div>
 
-                              <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
+                              <div>
                                    <button id="request-sign-button" class="form-control" data-toggle="modal" data-target="#signModal">Get A Yard Sign</button>
                               </div>
                          </div>
@@ -341,7 +342,7 @@
           <div class="container">
                <div class="row">
                     <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.8s">
-                         <p class="white-color">Copyright &copy; 2020 <span>Margaret Wright for Kyrene School Board</span> Version 1.2.2</p>
+                         <p class="white-color">Copyright &copy; 2020 <span>Margaret Wright for Kyrene School Board</span> Version 1.2.3</p>
                     </div>
                </div>
           </footer>

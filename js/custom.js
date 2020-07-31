@@ -174,6 +174,8 @@
           $(signNameField).removeClass("is-required");
           $(signAddressField).removeClass("is-required");
 
+          signStatus.innerHTML = "";
+
           signForm.reset();
         });
 
