@@ -471,6 +471,15 @@ ul, ul, ol {
   height: 55px;
 }
 
+#contact button#request-sign-button {
+  background: #00bbf9;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 50px;
+  margin-top: 24px;
+}
+
 #contact button#my-form-submit {
   background: #2b2b2b;
   border: none;
@@ -478,6 +487,11 @@ ul, ul, ol {
   color: #ffffff;
   height: 50px;
   margin-top: 24px;
+}
+
+#contact button#request-sign-button:hover {
+  background: #00bbf9;
+  color: #ffffff;
 }
 
 #contact button#my-form-submit:hover {

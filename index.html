@@ -78,11 +78,47 @@
                                    <h1 class="wow fadeInUp" data-wow-delay="0.4s">HELLO, I am Margaret Wright</h1>
                                    <p class="wow fadeInUp white-color" data-wow-delay="0.6s">It would be an honor to serve the children of the Kyrene School District as a member of the Governing Board. This site will help you understand my qualifications and ideals for our school district. Please feel free to contact me with any questions you might have.</p>
                                    <a href="#about" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s">Learn More</a>
+                                   <button class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" data-toggle="modal" data-target="#signModal">Get A Yard Sign</button>
                               </div>
                          </div>
                     </div>
                </div>
           </section>
+
+          <!-- Modal -->
+          <div class="modal fade" id="signModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                         <div class="modal-header" style="text-align: center;">
+                              <h3 class="modal-title" id="exampleModalLabel">Request a Yard Sign</h3>
+                         </div>
+                         <div class="modal-body" style="padding-bottom: 0px;">
+                              <p>Thank you for requesting a sign. Please fill out the following form and I will get a sign put on your yard soon! I can't thank you for your support.</p>
+                              <form id="sign_form" action="https://formspree.io/mgenrapg" method="POST">
+                                   <div class="form-group">
+                                        <input id="person_name" type="text" class="form-control" placeholder="Full Name">
+                                   </div>
+
+                                   <div class="form-group">
+                                        <input id="person_phone" type="tel" class="form-control" placeholder="Phone #">
+                                   </div>
+
+                                   <div class="form-group">
+                                        <input id="person_address" type="text" class="form-control" placeholder="Address">
+                                   </div>
+
+                                   <div class="form-group" style="text-align: center;">
+                                        <button id="my-sign-form-submit" type="submit" class="btn btn-default section-btn btn-block" style="margin-top: 15px;">Submit</button>
+                                   </div>
+                              </form>
+                              <p id="my-sign-form-status" style="text-align: center; color: #ff5964;"></p>
+                         </div>
+                         <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary section-btn btn-block" data-dismiss="modal" style="margin-top: 0px; background-color: #3C3D41;">Close</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
 
           <!-- About Section -->
           <section id="about" class="parallax-section">
@@ -274,7 +310,11 @@
                                              <button id="my-form-submit" type="submit" class="form-control">Send Message</button>
                                         </div>
                                    </form>
-                                   <p id="my-form-status"></p>
+                                   <p id="my-form-status" style="text-align: center"></p>
+                              </div>
+
+                              <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
+                                   <button id="request-sign-button" class="form-control" data-toggle="modal" data-target="#signModal">Request A Yard Sign</button>
                               </div>
                          </div>
 
